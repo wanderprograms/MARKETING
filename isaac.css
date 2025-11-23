@@ -1,0 +1,346 @@
+Inde, pali mawebusayiti ambiri aulere omwe amapangira ma logo mosavuta, ngakhale osakhala ndi luso la design. Mutha kugwiritsa ntchito ma template okonzeka kale, kusintha mitundu, ndi kuwonjezera dzina la bizinesi yanu mwachangu.  
+
+---
+
+✅ Mawebusayiti abwino opangira ma logo aulere
+
+- Canva Logo Maker  
+  - Imapereka ma template oposa 1 miliyoni.  
+  - Drag-and-drop editor yosavuta kugwiritsa ntchito.  
+  - Mutha kusintha mitundu, ma font, ndi zithunzi.  
+  - Imaperekanso AI Logo Generator kuti mupange logo mwachangu.
+
+- Free Logo Design  
+  - Imapereka ma template ambiri okonzeka kale.  
+  - Mutha kupanga logo mu mphindi zochepa.  
+  - Imapereka mwayi wosunga logo yanu mu PNG, JPEG, kapena PDF.  
+  - Imathandiza kupanga ma business cards kuchokera ku logo yanu.
+
+- Freepik Logo Maker  
+  - Imapereka ma template okonzeka kale komanso mwayi wopanga kuchokera ku scratch.  
+  - Easy drag-and-drop interface.  
+  - Mutha kusunga logo mu PNG, PDF, kapena JPEG.  
+  - Imapereka ma design elements ambiri aulere.
+
+---
+
+🔑 Zomwe muyenera kudziwa
+- Zithunzi zaulere zimakhala ndi malire: nthawi zina zimapereka logo mu resolution yochepa, ndipo ngati mukufuna high-resolution kapena vector file (SVG), mungafunikire kulipira.  
+- Kusankha mitundu ndi font: Sankhani mitundu ndi font zomwe zimagwirizana ndi brand yanu kuti logo izikhala yosavuta kuzindikira.  
+- Kusunga mu mtundu wa vector: Ngati mukufuna logo yomwe imatha kukulitsidwa popanda kusokonekera, sankhani SVG kapena PDF.  
+
+---
+
+Isaac, chifukwa umakonda UI/UX yokongola komanso branding, Canva ndi Freepik zingakuthandize kwambiri chifukwa zimapereka ma template okongola komanso zosavuta kusintha.  
+Kodi mukufuna ndikusonyeze site-by-step guide ya momwe mungapangire logo yanu mu Canva kapena Freepik?  
+
+Sources:
+
+
+
+/* ===== Base ===== */
+:root {
+  --primary: #0a7cff;
+  --primary-dark: #0555b3;
+  --bg: #f4f6f8;
+  --card: #ffffff;
+  --text: #20242a;
+  --muted: #6b7280;
+  --danger: #e3342f;
+  --overlay-green: rgba(0, 128, 0, 0.85); /* green overlay */
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* ===== Auth Container ===== */
+.auth-container {
+  width: min(420px, 92vw);
+  margin: 40px auto;
+  background: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.15);
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+.form-box h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  text-align: center;
+}
+.form-box input,
+.form-box select,
+.form-box textarea {
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.form-box label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.form-box input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+.form-box button {
+  padding: 10px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.form-box button:hover {
+  background: var(--primary-dark);
+}
+.form-box p {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 12px;
+}
+.form-box a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.form-box a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Header ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--card);
+  padding: 12px 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+.header-actions {
+  display: flex;
+  gap: 8px;
+}
+header button {
+  padding: 8px 12px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+header button:hover {
+  background: var(--primary-dark);
+}
+
+/* ===== Container ===== */
+.container {
+  padding: 12px;
+}
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* ===== Product Grid ===== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.product-card {
+  background: var(--card);
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 6px;
+}
+.product-card img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.product-card p {
+  margin: 4px 0;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.product-card p strong {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.see-more-btn {
+  margin-top: 6px;
+  padding: 6px 8px;
+  font-size: 12px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.see-more-btn:hover {
+  background: var(--primary-dark);
+}
+
+/* Responsive grid */
+@media (min-width: 600px) {
+  .product-grid { grid-template-columns: repeat(4, 1fr); }
+  .product-card img { height: 110px; }
+}
+@media (min-width: 900px) {
+  .product-grid { grid-template-columns: repeat(5, 1fr); }
+  .product-card img { height: 130px; }
+}
+
+/* ===== Upload Modal Full Screen ===== */
+.form-popup {
+  position: fixed;
+  inset: 0;
+  display: none; /* imatseguka ndi JS */
+  background: var(--overlay-green); /* green overlay */
+  z-index: 1000;
+  overflow-y: auto; /* scrolling support pa screen yonse */
+}
+.form-box.upload {
+  width: 100%;
+  min-height: 100%;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 0; /* full screen */
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  animation: fadeIn 0.4s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.form-box.upload h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary);
+}
+.form-box.upload input,
+.form-box.upload select,
+.form-box.upload textarea {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.form-box.upload input:focus,
+.form-box.upload select:focus,
+.form-box.upload textarea:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+.form-box.upload button {
+  width: 100%;
+  padding: 14px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.form-box.upload button:hover {
+  background: var(--primary-dark);
+}
+.close-btn {
+  align-self: flex-end;
+  background: var(--danger);
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.close-btn:hover {
+  background: #c53030;
+}
+
+/* ===== Details Modal ===== */
+.details-popup {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.55);
+  z-index: 1100;
+}
+.details-box {
+  width: min(720px, 94vw);
+  max-height: 88vh;
+  overflow: auto;
+  background: var(--card);
+  padding: 16px;
+  border-radius: 12px;
+}
+#detailsBox img {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ===== Fullscreen Overlay ===== */
+.fullscreen-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--overlay-green); /* green overlay for fullscreen */
+  z-index: 1200;
+}
+.fullscreen-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.fullscreen-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 10px 12px;
+  background: var(--danger);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
